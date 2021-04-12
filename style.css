@@ -23,19 +23,27 @@ body {
 
 img {
     float: left;
+    margin-right: 50px;
 }
 
 header>h1 {
     background-color: yellow;
 }
 
+main {
+    margin-top: 150px;
+}
+
 h2 {
     margin: 20px 0;
+    text-transform:uppercase;
+    font-weight: bold;
 }
 
 p {
     letter-spacing: 0.5px;
     color: #333333;
+    text-align: center;
 }
 
 #story>p:first-of-type {
@@ -50,12 +58,13 @@ a {
 
 a:hover {
     color: red;
+    text-decoration: none;
 }
 
 q {
     display: block;
     max-width: 50%;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 30px;
     font-size: 160%;
     background-color: #d4d4d3;
@@ -72,7 +81,16 @@ q {
 }
 
 table {
+border: 1px solid black;
+margin: 0 auto;
+}
 
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
 }
 
 .bad {
@@ -81,4 +99,21 @@ table {
 
 .good {
     color: green;
+}
+
+#story-container {
+    margin-top: 200px;
+    display: flex;
+}
+
+#story {
+    width: 50%;
+}
+
+#dialogTable {
+    width: 50%;
+}
+
+caption {
+    font-size: 6px;
 }
