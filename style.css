@@ -58,6 +58,10 @@ a:hover {
     text-decoration: none;
 }
 
+a:visited {
+    color: orange;
+}
+
 q {
     display: block;
     max-width: 50%;
