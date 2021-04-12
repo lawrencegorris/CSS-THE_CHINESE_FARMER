@@ -5,9 +5,57 @@
 }
 
 body {
-    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(137,143,148,1) 0%, rgba(20,55,90,1) 100%);
+    /*
+    background-image: url(/assets/max-van-den-oetelaar-iyTHrdzcu0Q-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
+    bottom: 0;
+    right: 0;
+}
+
+header>h1 {
+    background-color: yellow;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+#story>p:first-of-type {
+    font-weight: bold;
+}
+
+a {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+q {
+    display: block;
+    max-width: 50%;
+    margin: 80px 0;
+    padding: 30px;
+    font-size: 160%;
+    background-color: #d4d4d3;
+    border-left: 3px dashed black;
+    font-style: italic;
+}
+
+.quote-villager {
+    border-left-color:lightcoral;
+}
+
+.quote-farmer {
+    border-left-color: lightseagreen;
 }
