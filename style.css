@@ -9,14 +9,11 @@
 body {
     max-width: 90%;
     margin: 0 auto;
-    /*background: linear-gradient(90deg, rgba(137,143,148,1) 0%, rgba(20,55,90,1) 100%);
+    background: linear-gradient(90deg, rgba(137,143,148,1) 0%, rgba(20,55,90,1) 100%);
     background-image: url(assets/paula-vermeulen-_f2m3mEkaaU-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right;*/
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: bottom right;
     font-family: 'Open Sans', sans-serif;
 
 }
