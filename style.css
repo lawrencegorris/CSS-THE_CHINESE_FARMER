@@ -47,20 +47,23 @@ p {
     font-weight: bold;
 }
 
-a {
+a:visited {
+    color: orange;
+}
+
+a:link{
     color: darkred;
     font-weight: bold;
     text-decoration: none;
 }
+
 
 a:hover {
     color: red;
     text-decoration: none;
 }
 
-a:visited {
-    color: orange;
-}
+
 
 q {
     display: block;
