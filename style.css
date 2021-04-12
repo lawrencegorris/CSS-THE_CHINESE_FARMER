@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +9,31 @@
 body {
     max-width: 90%;
     margin: 0 auto;
-    background: linear-gradient(90deg, rgba(137,143,148,1) 0%, rgba(20,55,90,1) 100%);
-    /*
-    background-image: url(/assets/max-van-den-oetelaar-iyTHrdzcu0Q-unsplash.jpg);
+    /*background: linear-gradient(90deg, rgba(137,143,148,1) 0%, rgba(20,55,90,1) 100%);
+    background-image: url(assets/paula-vermeulen-_f2m3mEkaaU-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    */
-    bottom: 0;
-    right: 0;
+    background-position: bottom right;*/
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+img {
+    float: left;
 }
 
 header>h1 {
     background-color: yellow;
 }
 
+h2 {
+    margin: 20px 0;
+}
+
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.5px;
     color: #333333;
 }
@@ -44,7 +55,7 @@ a:hover {
 q {
     display: block;
     max-width: 50%;
-    margin: 80px 0;
+    margin: 80px auto;
     padding: 30px;
     font-size: 160%;
     background-color: #d4d4d3;
@@ -58,4 +69,16 @@ q {
 
 .quote-farmer {
     border-left-color: lightseagreen;
+}
+
+table {
+
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
 }
